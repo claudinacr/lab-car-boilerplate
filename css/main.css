@@ -289,3 +289,12 @@ a {
 .MobileTwo {
     font-size: 1.2em;
 }
+
+.form-body {
+    padding: 2em;
+}
+
+.BoxBox {
+    margin-right: auto;
+    margin-left: auto;
+}
