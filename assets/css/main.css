@@ -5,7 +5,7 @@
 }
 
 .imgBackOne {
-    background: url(../assets/images/taxi.jpg) no-repeat center bottom;
+    background: url(../images/taxi.jpg) no-repeat center bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,7 +37,7 @@
 }
 
 .imgBackThree {
-    background: url(../assets/images/conduce.jpg) no-repeat center;
+    background: url(../images/conduce.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

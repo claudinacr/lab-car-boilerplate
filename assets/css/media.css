@@ -14,7 +14,7 @@
         display: none;
     }
     .boxCellPhone {
-        background: url("../assets/images/iPhone6Plus.png")no-repeat center;
+        background: url("../images/iPhone6Plus.png")no-repeat center;
         -webkit-background-size: contain;
         -moz-background-size: contain;
         -o-background-size: contain;
@@ -124,7 +124,7 @@
         display: block;
     }
     .boxCellPhone {
-        background: url("../assets/images/iPhone6Plus.png")no-repeat left;
+        background: url("../images/iPhone6Plus.png")no-repeat left;
         -webkit-background-size: contain;
         -moz-background-size: contain;
         -o-background-size: contain;
