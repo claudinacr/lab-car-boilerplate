@@ -1,0 +1,326 @@
+<!-- Suelta tus manos y tu mente para solucionar este reto -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="theme-color" content="#083756" />
+  <title>Lab Car</title>
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/taxi.png">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!--Cabecera del Proyecto: Logo y Menu-->
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav navbar-left">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">Page 1-1</a>
+              </li>
+              <li>
+                <a href="#">Page 1-2</a>
+              </li>
+              <li>
+                <a href="#">Page 1-3</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/logoForma.png" alt="">
+          </a>
+        </div>
+        <ul class="nav navbar-nav navbar-right fontBack">
+          <li>
+            <a href="#">Viaja</a>
+          </li>
+          <li>
+            <a href="#">Conduce</a>
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#myModal">Inicia Sesion</a>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="user">
+                      <img class="modal-title" src="assets/images/user.png" class="userSize">
+                    </div>
+                  </div>
+                  <div class="modal-body">
+                    <hr>
+                    <div class="BoxBox">
+                      <div class="formulario">
+                        <div class="signup-form-container">
+                          <!-- form start -->
+                          <form role="form" id="register-form" autocomplete="off">
+                        </div>
+                        <div class="form-body">
+                          <div class="form-group">
+                            <div class="input-group">
+                              <div class="input-group-addon">
+                                <span class="glyphicon glyphicon-user"></span>
+                              </div>
+                              <input name="name" type="text" class="form-control" placeholder="Username">
+                            </div>
+                            <span class="help-block" id="error"></span>
+                          </div>
+                          <div class="row">
+                            <div class="form-group col-lg-6">
+                              <div class="input-group">
+                                <div class="input-group-addon">
+                                  <span class="glyphicon glyphicon-lock"></span>
+                                </div>
+                                <input name="password" id="password" type="password" class=" form-control " placeholder="Password ">
+                              </div>
+                              <span class="help-block " id="error "></span>
+                            </div>
+                          </div>
+                          <div class="form-footer ">
+                            <button type="submit " class="btn btn-warning "> LOGING
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+      </div>
+      </li>
+      </ul>
+      <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </header>
+  <!--Imagen 1-->
+  <section class="imgBackOne ">
+    <div class="boxOrange col-md-offset-7 col-xs-offset-3 ">
+      <div class="mobileContent ">
+        <h3 class="colorWhite ">Comienza a viajar</h3>
+        <h3 class="colorWhite ">con</h3>
+        <img src="assets/images/logoBlanco.png " alt=" ">
+        <br>
+        <button type="button " class="btn btn-default ">Descarga el app</button>
+      </div>
+      <div class="desktopContent ">
+        <h2>Disfruta del viaje</h2>
+        <h2>Eres dueño de tu tiempo</h2>
+        <h3>Viaja con </h3>
+        <img src="assets/images/logoBlanco.png " alt=" ">
+        <p></p>
+        <button type="button " class="btn btn-default Space ">REGISTRATE</button>
+        <p></p>
+        <div class="linea "></div>
+        <span>O bien</span>
+        <div class="linea "></div>
+        <p></p>
+        <button type="button " class="btn btn-default ">Conviertete en un conductor</button>
+      </div>
+    </div>
+  </section>
+  <!--Imagen celular-->
+  <section class="imgBackTwo ">
+    <div class="boxCellPhone col-md-9 ">
+      <div class="textoCellPhoneMobile ">
+        <h2>La nueva app</h2>
+      </div>
+      <div class="textoCellPhoneDesktop col-md-offset-5 ">
+        <h1>Descarga la nueva app</h1>
+        <h3>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.
+        </h3>
+        <h3>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exatamente
+          donde ir.</h3>
+      </div>
+      <!-- <img src="assets/images/iPhone6Plus.png " alt=" "> -->
+    </div>
+    <div class="textoCellPhoneMobile ">
+      <h3>Llega a tu destino aún más rápido</h3>
+    </div>
+  </section>
+
+  <!--Imagen conductor-->
+  <section class="imgBackThree ">
+    <div class="boxBlack col-md-offset-7 ">
+
+      <h1 class="colorWhite ">Conduce cuando quieras</h1>
+      <h4 class="colorWhite ">LabCar es una opción flexible para alcanzar tus metas financieras.</h4>
+      <button type="button " class="btn btn-warning btn-lg conduc ">Conviértete en un conductor</button>
+
+
+    </div>
+
+  </section>
+
+  <!--Imagen Mapa-->
+  <section class="imgBackFour ">
+    <div class="textosNaranja col-md-6 ">
+      <h1 class="tarifas "> Tarifas</h1>
+      <h3 class="consulta "> Consulta las tarifas LabCar aqui</h3>
+      <div class="inputtext ">
+        <div class="grupo ">
+          <img src="assets/images/shape.png " class="shape " alt=" " align="left ">
+          <input type="text " placeholder="Insurgentes Centro, Cuauhtemoc, Ciudad de Mexico, Me ">
+        </div>
+        <div class="grupoTwo ">
+          <img src="assets/images/shape.png " class="shape " alt=" " align="left ">
+          <input type="text " placeholder="Ingrese tu punto de partida ">
+        </div>
+        <div class="grupo ">
+          <img src="assets/images/shape2.png " class="shape " alt=" " align="left ">
+          <input type="text " placeholder="Carolina, Ciudad de los Deportes, Ciudad de Mexico, Me ">
+        </div>
+        <div class="grupoTwo ">
+          <img src="assets/images/shape2.png " class="shape " alt=" " align="left ">
+          <input type="text " placeholder="Ingrese su destino ">
+        </div>
+      </div>
+      <div class="botonDefault ">
+        <button type="button " class="btn btn-default ">¡TRAZAR RUTA!</button>
+      </div>
+    </div>
+    <div class="mapa col-md-5 ">
+      <div class="embed-responsive embed-responsive-1by1 "></div>
+      <iframe class="embed-responsive-item " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.511902458841!2d-99.14905038509332!3d19.43348418688386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8d547f40a31%3A0x5f8ebe9e11b24b9!2sTeatro+Metropolitan!5e0!3m2!1ses-419!2scl!4v1512498655255 "
+        allowfullscreen></iframe>
+    </div>
+
+    </div>
+  </section>
+  <!--Footer-->
+  <footer>
+    <div class="container ">
+      <div class="row ">
+        <div class="col-md-2 SpaceTwo ">
+          <img src="assets/images/logoBlanco.png " alt=" ">
+        </div>
+      </div>
+      <div class="row ">
+        <div class=" col-md-3 end SpaceTwo ">
+          <div class="espacio "></div>
+          <div class="iconos ">
+            <i class="fa fa-facebook " aria-hidden="true "></i>
+            <i class="fa fa-twitter " aria-hidden="true "></i>
+            <i class="fa fa-linkedin " aria-hidden="true "></i>
+            <i class="fa fa-apple " aria-hidden="true "></i>
+            <i class="fa fa-play " aria-hidden="true "></i>
+          </div>
+        </div>
+        <div class=" bottom-align-text col-md-3 col-xs-1 ">
+          <ul class="listaserv ">
+            <li>
+              <a href="# ">Viaja</a>
+            </li>
+            <li>
+              <a href="# ">Conduce</a>
+            </li>
+            <li>
+              <a href="# ">Ciudades</a>
+            </li>
+            <li>
+              <a href="# ">Tarifas</a>
+            </li>
+            <li>
+              <a href="# ">Entregas</a>
+            </li>
+            <li>
+              <a href="# ">Cómo funciona</a>
+            </li>
+            <li>
+              <a href="# ">Países</a>
+            </li>
+            <li>
+              <a href="# ">Seguridad</a>
+            </li>
+          </ul>
+        </div>
+        <div class=" bottom-align-text col-md-3 disapire ">
+          <ul class="listaserv ">
+            <li>
+              <a href="# ">Oportunidades</a>
+            </li>
+            <li>
+              <a href="# ">Nuestra historia</a>
+            </li>
+            <li>
+              <a href="# ">API de LabCar</a>
+            </li>
+            <li>
+              <a href="# ">Eventos</a>
+            </li>
+            <li>
+              <a href="# ">Desarrolladores</a>
+            </li>
+            <li>
+              <a href="# ">Servicios</a>
+            </li>
+            <li>
+              <a href="# ">Laboratoria</a>
+            </li>
+            <li>
+              <a href="# ">Coders</a>
+            </li>
+          </ul>
+        </div>
+        <div class=" bottom-align-text col-md-3 ">
+          <div class="espacioDos "></div>
+          <ul class="listaserv ">
+            <li class="interline ">
+              <a href="# " class="move ">
+                <img src="assets/images/appstore.png " class="size ">
+              </a>
+            </li>
+            <li>
+              <a href="# " class="move ">
+                <img src="assets/images/enBadgeWebGeneric.png " class="size ">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="otherSpace "></div>
+
+      </div>
+      <div class="row ">
+        <div class="col-md-12 col-xs-6 interlineTop ">
+          <p class="pepe ">© 2017 LabCar technologies Inc.</p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>

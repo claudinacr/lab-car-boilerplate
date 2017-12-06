@@ -1,0 +1,266 @@
+/* Los estilos de tu proyecto */
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.imgBackOne {
+    background: url(../assets/images/taxi.jpg) no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 25vh;
+    color: white;
+}
+
+.boxOrange {
+    background-color: #EEB300;
+    /* position: absolute; */
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.imgBackTwo {
+    background: #EEB300;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    color: white;
+}
+
+.imgBackThree {
+    background: url(../assets/images/conduce.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 60vh;
+    color: white;
+}
+
+.boxBlack {
+    background: rgba(0, 0, 0, 0.5);
+    /* position: absolute; */
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    height: 100%;
+}
+
+.imgBackFour {
+    background: #EEB300;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+}
+
+.inputtext,
+{
+    padding: 2em;
+}
+
+.grupo,
+.grupoTwo {
+    padding: em;
+}
+
+.mapa {
+    border: white 1px solid;
+    padding: 1em;
+}
+
+.botonDefault {
+    margin-left: 7em;
+    margin-top: 3em;
+}
+
+input {
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px white solid;
+    color: white;
+    width: 55%;
+    padding: 5px;
+}
+
+.botonDefault .btn {
+    font-weight: bold;
+}
+
+
+/* do not group these rules */
+
+*::-webkit-input-placeholder {
+    color: white;
+}
+
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: white;
+}
+
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: white;
+}
+
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}
+
+footer {
+    background: #34383F;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+}
+
+footer row {
+    position: relative;
+}
+
+footer .row:not(:last-child) {
+    border-bottom: 2px white solid;
+}
+
+.listaserv {
+    list-style: none;
+    color: white;
+}
+
+.listaserv li {
+    line-height: 3em;
+}
+
+.bottom-align-text {
+    margin-top: auto;
+}
+
+.navbar {
+    background-color: white !important;
+    border: none !important;
+}
+
+header {
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.linea {
+    width: 12em;
+    height: 0.2em;
+    display: inline-block;
+    background-color: #F6F4F2;
+    text-align: center;
+    /* border: 1px blue solid; */
+}
+
+.Space {
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+.imgBackFour input {
+    margin-left: 2em;
+}
+
+.imgBackFour {
+    padding-left: 5em;
+}
+
+iframe {
+    width: 100%;
+    height: 30em;
+}
+
+.grupo,
+.grupoTwo {
+    margin-bottom: 1em;
+}
+
+a {
+    /* color: #337ab7; */
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.SpaceTwo {
+    padding-bottom: 1.5em;
+}
+
+.espacio {
+    padding-top: 22em;
+}
+
+.espacioDos {
+    padding-top: 14em;
+}
+
+.interline {
+    padding-bottom: 1em;
+}
+
+.interlineTop {
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.fontBack li a {
+    color: black !important;
+}
+
+.user {
+    text-align: center;
+}
+
+.userSize {
+    width: 50%;
+}
+
+.BoxBox {
+    width: 50%;
+    background-color: gray;
+}
+
+.user {
+    background-color: #00B29D;
+}
+
+.modal-body {
+    background-color: #00B29D;
+}
+
+.form-footer {
+    background-color: #00B29D;
+}
+
+.modal-header {
+    background-color: #00B29D;
+}
+
+.form-body {
+    background-color: #F5F5F5;
+}
+
+.formulario {
+    background-color: #F5F5F5;
+}

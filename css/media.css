@@ -1,0 +1,153 @@
+/* Extra Small */
+
+@media(max-width:767px) {
+    .navbar-right {
+        display: none;
+    }
+    .navbar-left {
+        display: inline;
+    }
+    .boxOrange .mobileContent {
+        display: block;
+    }
+    .boxOrange .desktopContent {
+        display: none;
+    }
+    .boxCellPhone {
+        background: url("../assets/images/iPhone6Plus.png")no-repeat center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        background-origin: content-box;
+        height: 100%;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        color: white;
+        border: 1px white solid;
+    }
+    .textoCellPhoneDesktop {
+        display: none;
+    }
+    .textoCellPhoneMobile {
+        display: block;
+        margin-top: -3.5em;
+        text-align: center;
+    }
+    .textoCellPhoneMobile h3 {
+        padding-top: 1.8em;
+        text-align: justify;
+        padding-left: 0.5em;
+    }
+    .navbar-brand {
+        margin-left: 7em;
+        margin-top: -3em;
+    }
+    .glyphicon-menu-hamburger {
+        font-size: 2em;
+        border: 0.05em #EEEEEE solid;
+        border-radius: 5%;
+        padding: 0.2em;
+        color: #9E9E9E;
+    }
+    .imgBackFour input {
+        margin-left: 0.5em;
+    }
+    .imgBackFour {
+        padding-left: 0em;
+    }
+    .grupo {
+        padding: 0em;
+    }
+    .grupo input {
+        width: 90%;
+    }
+    .imgBackFour .grupoTwo {
+        display: none;
+    }
+    .imgBackFour .grupo {
+        display: block;
+    }
+    .tarifas {
+        font-size: 1.8em;
+    }
+    .consulta {
+        font-size: 1.5em;
+    }
+    .botonDefault {
+        margin-left: 5em;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    iframe {
+        max-width: 100%;
+        height: 15em;
+    }
+    .disapire {
+        display: none;
+    }
+    .espacio {
+        padding-top: 0;
+    }
+    .espacioTwo {
+        padding-top: 0;
+    }
+    .iconos {
+        padding-left: 14em;
+        padding-top: 2em;
+    }
+    .size {
+        width: 40%;
+    }
+    .move {
+        margin-left: 10em;
+    }
+    .espacioDos {
+        padding-top: 0;
+    }
+}
+
+
+/* Medium */
+
+@media(min-width:768px) {
+    .navbar-right {
+        display: inline;
+    }
+    .navbar-left {
+        display: none;
+    }
+    .boxOrange .mobileContent {
+        display: none;
+    }
+    .boxOrange .desktopContent {
+        display: block;
+    }
+    .boxCellPhone {
+        background: url("../assets/images/iPhone6Plus.png")no-repeat left;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        background-origin: content-box;
+        height: 100%;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        color: white;
+        border-top: 1px white solid;
+        border-bottom: 1px white solid;
+        border-right: 1px white solid;
+    }
+    .textoCellPhoneDesktop {
+        display: block;
+    }
+    .textoCellPhoneMobile {
+        display: none
+    }
+    .imgBackFour .grupoTwo {
+        display: block;
+    }
+    .imgBackFour .grupo {
+        display: none;
+    }
+}
